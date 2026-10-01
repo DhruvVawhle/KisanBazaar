@@ -4,7 +4,7 @@
 
 ---
 
-## ?? Project Overview
+## Project Overview
 
 **KisanBazaar** is an agricultural marketplace platform designed to bridge the gap between farmers, consumers, and commercial buyers. The project eliminates unnecessary middlemen, ensures fair pricing for agricultural producers, and provides consumers with direct access to fresh, high-quality farm produce and groceries.
 
@@ -14,23 +14,23 @@ This repository preserves the complete developmental evolution of KisanBazaar ac
 
 ---
 
-## ?? Project Evolution
+## Project Evolution
 
 ```
 +-----------------------------------------------------------------------------+
-¦                                 KisanBazaar                                 ¦
+Â¦                                 KisanBazaar                                 Â¦
 +-----------------------------------------------------------------------------+
-                                       ¦
+                                       Â¦
            +-------------------------------------------------------+
            ?                                                       ?
    Old KisanBazaar                                         Current KisanBazaar
 +-------------------------+               +-------------------------------------------------+
-¦ Stage 1: Early Frontend ¦               ¦ Stage 2: Multi-Platform Modern Implementations  ¦
-¦  - Contract Farming     ¦               +-------------------------------------------------¦
-¦  - Static Web Prototype ¦               ¦  PyQt6 Desktop  ¦ Web KB Stack  ¦ Flask Market  ¦
-¦  - HTML5 / CSS3 / JS    ¦               ¦  - Grocery GUI  ¦ - React / TS  ¦ - Negotiation ¦
-+-------------------------+               ¦  - PDF Invoices ¦ - Express API ¦ - In-Memory   ¦
-                                          ¦  - Local Cart   ¦ - Drizzle ORM ¦ - HTML Forms  ¦
+Â¦ Stage 1: Early Frontend Â¦               Â¦ Stage 2: Multi-Platform Modern Implementations  Â¦
+Â¦  - Contract Farming     Â¦               +-------------------------------------------------Â¦
+Â¦  - Static Web Prototype Â¦               Â¦  PyQt6 Desktop  Â¦ Web KB Stack  Â¦ Flask Market  Â¦
+Â¦  - HTML5 / CSS3 / JS    Â¦               Â¦  - Grocery GUI  Â¦ - React / TS  Â¦ - Negotiation Â¦
++-------------------------+               Â¦  - PDF Invoices Â¦ - Express API Â¦ - In-Memory   Â¦
+                                          Â¦  - Local Cart   Â¦ - Drizzle ORM Â¦ - HTML Forms  Â¦
                                           +-------------------------------------------------+
 ```
 
@@ -40,7 +40,7 @@ The repository is structured to maintain clear historical continuity:
 
 ---
 
-## ??? Implementations in this Repository
+## Implementations in this Repository
 
 | Directory / Module | Implementation Type | Technologies | Primary Purpose | Status |
 | :--- | :--- | :--- | :--- | :--- |
@@ -51,7 +51,7 @@ The repository is structured to maintain clear historical continuity:
 
 ---
 
-## ?? 1. Old KisanBazaar (Historical Frontend Prototype)
+## 1. Old KisanBazaar (Historical Frontend Prototype)
 
 The **Old KisanBazaar** directory preserves the original static web prototype (initially developed under the concept *KisanConnect* / *KisanBazaar*). It focused on facilitating long-term contract farming partnerships between agricultural producers and institutional or bulk buyers.
 
@@ -76,7 +76,7 @@ The **Old KisanBazaar** directory preserves the original static web prototype (i
 
 ---
 
-## ?? 2. Current KisanBazaar Implementations
+## 2. Current KisanBazaar Implementations
 
 The **`KisanBazaar/`** folder represents subsequent development phases and contains three distinct implementations:
 
@@ -133,63 +133,63 @@ A Python web prototype exploring dynamic price bargaining between farmers and bu
 
 ---
 
-## ?? Repository Structure
+## Repository Structure
 
 ```
 KisanBazaar/
-¦
+Â¦
 +-- .gitignore                          # Global repository exclusions
 +-- README.md                           # Comprehensive project documentation
-¦
+Â¦
 +-- Old KisanBazaar/                    # Historical contract-farming frontend
-¦   +-- background1.jpg
-¦   +-- background2.jpg
-¦   +-- background3.jpg.jpg
-¦   +-- buyerAccount.html
-¦   +-- farmerAccount.html
-¦   +-- index.html
-¦   +-- login.html
-¦   +-- register.html
-¦   +-- styles.css
-¦
+Â¦   +-- background1.jpg
+Â¦   +-- background2.jpg
+Â¦   +-- background3.jpg.jpg
+Â¦   +-- buyerAccount.html
+Â¦   +-- farmerAccount.html
+Â¦   +-- index.html
+Â¦   +-- login.html
+Â¦   +-- register.html
+Â¦   +-- styles.css
+Â¦
 +-- KisanBazaar/                        # Current multi-platform implementations
-    ¦
+    Â¦
     +-- Kisan Bazaar/                   # PyQt6 Desktop Application
-    ¦   +-- images/                     # 28 produce image assets
-    ¦   +-- cart_icon.png               # Shopping cart UI asset
-    ¦   +-- customer_bill.txt           # Local text billing ledger
-    ¦   +-- grocery_shop.py             # PyQt6 desktop application source
-    ¦   +-- products.json               # Product catalogue and pricing data
-    ¦
+    Â¦   +-- images/                     # 28 produce image assets
+    Â¦   +-- cart_icon.png               # Shopping cart UI asset
+    Â¦   +-- customer_bill.txt           # Local text billing ledger
+    Â¦   +-- grocery_shop.py             # PyQt6 desktop application source
+    Â¦   +-- products.json               # Product catalogue and pricing data
+    Â¦
     +-- Web KB/                         # Modern Full-Stack Web Architecture
-    ¦   +-- backend files/
-    ¦   ¦   +-- shared/
-    ¦   ¦       +-- schema.ts           # Drizzle ORM PostgreSQL schema & types
-    ¦   ¦       +-- server/
-    ¦   ¦           +-- routes.ts       # Express REST API endpoints
-    ¦   ¦           +-- storage.ts      # In-memory storage implementation
-    ¦   +-- frontend files/
-    ¦   ¦   +-- client/
-    ¦   ¦       +-- src/
-    ¦   ¦           +-- App.tsx         # React root application component
-    ¦   +-- images/                     # Produce image assets
-    ¦   +-- cart_icon.png
-    ¦   +-- customer_bill.txt
-    ¦   +-- grocery_shop.py
-    ¦   +-- products.json
-    ¦
+    Â¦   +-- backend files/
+    Â¦   Â¦   +-- shared/
+    Â¦   Â¦       +-- schema.ts           # Drizzle ORM PostgreSQL schema & types
+    Â¦   Â¦       +-- server/
+    Â¦   Â¦           +-- routes.ts       # Express REST API endpoints
+    Â¦   Â¦           +-- storage.ts      # In-memory storage implementation
+    Â¦   +-- frontend files/
+    Â¦   Â¦   +-- client/
+    Â¦   Â¦       +-- src/
+    Â¦   Â¦           +-- App.tsx         # React root application component
+    Â¦   +-- images/                     # Produce image assets
+    Â¦   +-- cart_icon.png
+    Â¦   +-- customer_bill.txt
+    Â¦   +-- grocery_shop.py
+    Â¦   +-- products.json
+    Â¦
     +-- static/                         # Flask prototype static styles
-    ¦   +-- styles.css
+    Â¦   +-- styles.css
     +-- templates/                      # Flask prototype Jinja2 templates
-    ¦   +-- index.html
-    ¦   +-- list_produce.html
-    ¦   +-- negotiate_price.html
+    Â¦   +-- index.html
+    Â¦   +-- list_produce.html
+    Â¦   +-- negotiate_price.html
     +-- app.py                          # Flask produce listing & negotiation server
 ```
 
 ---
 
-## ?? Setup and Run Instructions
+## Setup and Run Instructions
 
 ### 1. Old KisanBazaar (Static Prototype)
 Open any HTML file directly in your web browser, or serve it locally:
@@ -235,7 +235,7 @@ The files in `KisanBazaar/Web KB/` provide the core TypeScript definitions, API 
 
 ---
 
-## ?? Known Limitations & Scope Notes
+## Known Limitations & Scope Notes
 
 To provide an accurate technical assessment of the repository:
 1. **Mocked Payment Processing**: The PyQt6 desktop app simulates payment delays and presents local dialogs for UPI and Card details; it does not connect to live banking APIs.
@@ -246,7 +246,7 @@ To provide an accurate technical assessment of the repository:
 
 ---
 
-## ?? Future Development Possibilities
+## Future Development Possibilities
 
 - **Unified Omnichannel Platform**: Integrating the PyQt6 desktop POS with the web backend via shared REST/GraphQL APIs.
 - **Production Persistence**: Connecting the Drizzle ORM schema to a live PostgreSQL database cluster with migrations.
@@ -256,7 +256,7 @@ To provide an accurate technical assessment of the repository:
 
 ---
 
-## ?? Author
+## Author
 
 **Dhruv Vawhle**
 - GitHub: [@DhruvVawhle](https://github.com/DhruvVawhle)
