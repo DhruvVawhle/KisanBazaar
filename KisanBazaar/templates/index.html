@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Farmers Market</title>
+</head>
+<body>
+    <h1>Welcome to the Farmers Market</h1>
+    <a href="index.html">List Produce</a>
+    <h2>Available Produce</h2>
+    <ul>
+        {% for item in produce %}
+            <li>{{ item.item }} - ${{ item.price }} <a href="negotiate_price.html">Negotiate Price</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

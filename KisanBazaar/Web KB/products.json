@@ -1,0 +1,179 @@
+{
+    "Leafy Vegetables": [
+        {
+            "name": "Spinach",
+            "price": 30,
+            "quantity": 50,
+            "image": "images/spinach.jpg"
+        },
+        {
+            "name": "Coriander",
+            "price": 15,
+            "quantity": 40,
+            "image": "images/coriander.jpg"
+        },
+        {
+            "name": "Fenugreek Leaves",
+            "price": 25,
+            "quantity": 35,
+            "image": "images/fenugreek.jpg"
+        },
+        {
+            "name": "Mint",
+            "price": 20,
+            "quantity": 25,
+            "image": "images/mint.jpg"
+        },
+        {
+            "name": "Cauliflower",
+            "price":30,
+            "quantity":50,
+            "image":"images/cauliflower.jpg"
+
+        },
+        {
+            "name": "Tomato",
+            "price": 120,
+            "quantity": 46,
+            "unit": "kg",
+            "image": "images/tomato.jpg"
+        }
+    ],
+    "Lentils": [
+        {
+            "name": "Moong Dal",
+            "price": 70,
+            "quantity": 100,
+            "unit": "kg",
+            "image": "images/moongdal.jpg"
+        },
+        {
+            "name": "Masoor Dal",
+            "price": 80,
+            "quantity": 90,
+            "unit": "kg",
+            "image": "images/masoordal.jpg"
+        },
+        {
+            "name": "Toor Dal",
+            "price": 85,
+            "quantity": 70,
+            "unit": "kg",
+            "image": "images/toordal.jpg"
+        },
+        {
+            "name": "Chana Dal",
+            "price": 75,
+            "quantity": 60,
+            "unit": "kg",
+            "image": "images/chanadal.jpg"
+        },
+        {
+            "name": "Urad Dal",
+            "price": 75,
+            "quantity": 60,
+            "unit": "kg",
+            "image": "images/uraddal.jpg"
+        },
+        {
+            "name": "Black Urad Dal",
+            "price": 75,
+            "quantity": 60,
+            "unit": "kg",
+            "image": "images/blackuraddal.jpg"
+        }
+    ],
+    "Underground Vegetables": [
+        {
+            "name": "Potato",
+            "price": 20,
+            "quantity": 200,
+            "unit": "kg",
+            "image": "images/potato.jpg"
+        },
+        {
+            "name": "Onion",
+            "price": 25,
+            "quantity": 180,
+            "unit": "kg",
+            "image": "images/onion.jpg"
+        },
+        {
+            "name": "Carrot",
+            "price": 120,
+            "quantitykg": 46,
+            "unit": "kg",
+            "image": "images/carrot.jpg"
+        },
+        {
+            "name": "Beetroot",
+            "price": 35,
+            "quantity": 60,
+            "unit": "kg",
+            "image": "images/beetroot.jpg"
+        },
+        {
+            "name": "Raddish",
+            "price": 120,
+            "quantity": 46,
+            "unit": "kg",
+            "image": "images/raddish.jpg"
+        },
+
+        {
+            "name": "Garlic",
+            "price": 120,
+            "quantity": 46,
+            "unit": "kg",
+            "image": "images/garlic.jpg"
+        }
+
+    ],
+    "Dairy Products":[
+      {
+        "name": "Milk",
+        "price": 60,
+        "quantity": 50,
+        "unit": "litre",
+        "image":"images/milk.jpg"
+         
+      },
+      {
+        "name": "Curd",
+        "price": 60,
+        "quantity": 50,
+        "unit": "litre",
+        "image":"images/curd.jpg"
+         
+      },
+      {
+        "name": "Cheese",
+        "price": 60,
+        "quantity": 50,
+        "image":"images/cheese.jpg"
+         
+      },
+       {
+            "name": "Butter",
+            "price": 120,
+            "quantity": 46,
+            "unit": "kg",
+            "image": "images/butter.jpg"
+        },
+      {
+        "name": "ButterMilk",
+        "price": 60,
+        "quantity": 50,
+        "unit": "litre",
+        "image":"images/buttermilk.jpg"
+         
+      },
+            {
+            "name": "Ghee",
+            "price": 75,
+            "quantity": 60,
+            "unit": "litre",
+            "image": "images/ghee.jpg"
+        }
+    ]
+}
