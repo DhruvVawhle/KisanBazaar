@@ -47,7 +47,7 @@ The repository is structured to maintain clear historical continuity:
 | **`Old KisanBazaar/`** | Static Web Frontend | HTML5, CSS3, Bootstrap 4, JS | Contract farming & buyer-farmer portal prototype | Historical Prototype |
 | **`KisanBazaar/Kisan Bazaar/`** | Desktop Application | Python 3, PyQt6, QtPrintSupport | Interactive grocery shop, catalog, cart, billing & PDF export | Functional Desktop App |
 | **`KisanBazaar/Web KB/`** | Full-Stack Web Architecture | TypeScript, React, Express, Drizzle ORM | Modern web API & client architecture for agricultural commerce | Architecture / Modular Source |
-| **`KisanBazaar/` (Flask)** | Lightweight Web Prototype | Python 3, Flask, Jinja2, HTML5 | Produce listing and buyer price negotiation engine | Functional Prototype |
+| **`KisanBazaar/` (Flask)** | Lightweight Web Prototype | Python 3, Flask, Jinja2, HTML5 | Produce listing and buyer price negotiation prototype | Functional Prototype |
 
 ---
 
@@ -81,7 +81,7 @@ The **Old KisanBazaar** directory preserves the original static web prototype (i
 The **`KisanBazaar/`** folder represents subsequent development phases and contains three distinct implementations:
 
 ### A. Python / PyQt6 Desktop Application (`Kisan Bazaar/`)
-A fully-featured desktop shopping application built with PyQt6.
+A functional desktop shopping application built with PyQt6.
 - **Welcome / Intro Screen**: Visual greeting with branding, tagline, and transition to the shop.
 - **Product Catalog**: Renders produce cards from `products.json` with item images, titles, pricing, and unit measurements.
 - **Category Filtering & Search**: Instant filtering across categories (*Leafy Vegetables*, *Lentils*, *Dairy & Everyday*) and search by produce name.
@@ -98,7 +98,7 @@ A fully-featured desktop shopping application built with PyQt6.
 - **Order History Viewer**: In-app dialog reading and displaying past purchase records.
 
 ### B. Modern Full-Stack Web Application Architecture (`Web KB/`)
-A modern, modular full-stack architecture designed for scalable web deployment:
+A modern full-stack web application architecture containing React, Express, TypeScript, Drizzle ORM, API routes, and frontend components:
 - **Database Schema (`backend files/shared/schema.ts`)**:
   - PostgreSQL table definitions via **Drizzle ORM**: `users`, `products`, `orders`.
   - Type definitions and Zod validation schemas (`CartItem`, `insertOrderSchema`).
