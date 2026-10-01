@@ -121,7 +121,7 @@ A Python web prototype exploring dynamic price bargaining between farmers and bu
 
 ---
 
-## ??? Technology Stack
+## Technology Stack
 
 | Domain | Technologies |
 | :--- | :--- |
